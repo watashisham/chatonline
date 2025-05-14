@@ -17,5 +17,5 @@ wss.on("connection", (ws) => {
         wss.clients.forEach((clients) => clients.send(data.toString()))      
     })
 
-    console.log("Client conected.")
+    console.log("Client connected.")
 })
