@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viemport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=send" />
     <link rel="stylesheet" href="./css/style.css">
 
     <title>ChatOnline</title>
@@ -22,9 +25,18 @@
             </form>
         </section>
 
+        <section class="chat">
+            <section class="chat__mesages"></section>
+
+            <form class="chat__form">
+                <input type="text" class="chat__input" placeholder="Digite uma mensagem" required>
+                <button type="submit" class="chat__button">
+                    <span class="material-symbols-outlined">send</span>
+                </button>
+            </form>
+        </section>
+
     </section>
-
-
     <script src="./js/script.js"></script>
 
 </body>

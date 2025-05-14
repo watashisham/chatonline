@@ -34,6 +34,9 @@ body {
     background-color: #212121;
     border-radius: 5px;
     padding: 20px;
+
+    /*OCULTAR TELA DE LOGIN PARA CRIAR OUTRA TELA*/
+    display: none;
 }
 
 /*Apenas H2 filho do login*/
@@ -78,4 +81,12 @@ body {
 
 .login__button:hover{
     background-color: white;
+}
+
+/*INICIO CHAT/MENSAGENS*/
+
+.chat {
+    background: #555;
+    width: 100%;
+    height: 100%;
 }
